@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu SA Beginner', cursive;
+
+}
+
+header {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-main {
+    display: flex;
+    background-image: linear-gradient(315deg, #181717 0%, #1f1e1e 74%);
+    border-radius: 20px;
+    height: 600px;
+    justify-content: space-around;
+    width: 1200px;
+    background-color: #000000;
+
+
+}
+
+.header-main-left i {
+    color: white;
+    margin-left: 15px;
+}
+
+.header-main-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-main-left {
+    margin-top: 40px;
+}
+
+.header-main-left h1 {
+    font-size: 60px;
+    color: white;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.header-main-left p {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.header-main-left a {
+    padding: 20px 35px;
+    text-decoration: none;
+    background-color: limegreen;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: inset 0 0 0 0 #59E506;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+}
+
+.next-match {
+    width: 250px;
+    height: 250px;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #181717 0%, #1f1e1e 74%);
+    border-radius: 10px;
+}
+
+.next-match a {
+    display: block;
+    text-decoration: none;
+    margin: 15px 25px;
+}
+
+.next-match .game {
+    width: 150px;
+    height: 30px;
+    padding: 10px 30px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.next-match .teams {
+    width: 150px;
+    height: 30px;
+    padding: 10px 30px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.next-match .game {
+    width: 150px;
+    height: 30px;
+    padding: 10px 30px;
+    background-color: white;
+    margin-left: 20px;
+    background-color: limegreen;
+    color: white;
+    border: none;
+}
+
+.upcoming-match a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.upcoming-match .button {
+    background-color: white;
+    padding: 13px 30px;
+}
+
+.upcoming-match {
+    padding: 10px 0px;
+}
+
+.match-detail {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    column-gap: 20px;
+}
+
+.match-info a {
+    border: 1px solid gray;
+    background-color: white;
+    padding: 05px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #000000;
+    margin-left: 10px;
+    box-shadow: inset 0 0 0 0 #59E506;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+    font-weight: 700;
+}
+
+.item {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item img {
+    width: 100%;
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 05px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    column-gap: 10px;
+}
+
+.fa-clock {
+    background-color: #fff;
+}
+
+.game {
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.item {
+    width: 100%;
+}
+
+.match-info a:hover {
+    box-shadow: inset 250px 0 0 0 crimson;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.match-info h2 {
+    text-align: center;
+    font-weight: 800;
+}
+
+.match-info p {
+    text-align: center;
+}
+
+.game {
+    padding: 40px 40px;
+}
+
+.item h2 {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.match-info-p {
+    color: gray;
+}
+
+footer {
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #030303 50%, #131212 74%);
+    margin-top: 100px;
+    width: 100%;
+    height: 350px;
+
+}
+
+.footer-menu {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    column-gap: 60px;
+
+}
+
+
+
+.footer-menu a {
+    text-decoration: none;
+    color: lightgray;
+    font-weight: 500;
+    font-weight: 600;
+}
+
+.footer-main {
+    padding: 30px 30px;
+}
+
+.footer-text {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-main hr {
+    width: 70%;
+    color: grey;
+    background-color: grey;
+}
